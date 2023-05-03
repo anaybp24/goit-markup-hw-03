@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --padding-general: 0.2px 
+}
+
+.list {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+
+.page{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+ 
+.page{
+    cursor: pointer;
+}
+
+.page:hover,
+.page:focus{
+    color: #2196F3;
+}   
+
+.contac{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+
+.contac{
+    cursor: pointer;
+}
+
+.contac:hover,
+.contac:focus{
+    color: #2196F3;
+}
+
+.hero-bg-hero{
+padding: var(--padding-general);
+background-color: #060627;
+color: aliceblue;
+}
+
+.button-primary{
+    color: aliceblue;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+
+    letter-spacing: 0.06em;
+
+    background-color: #2196F3;
+}
+
+.button-primary{
+    cursor: pointer;
+}
+
+.tittle{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1;
+    
+        letter-spacing: 0.03em;
+
+        color: #212121;
+}
+.description{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+._footer{
+    padding: var(--padding-general);
+    background-color: #060627;
+    color: aliceblue;
+}
+
+.button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+        
+    color: #212121;
+
+    background: #F5F4FA;
+}
+
+.button{
+    cursor: pointer;
+}
+
+.button:hover{
+    color: #F5F4FA;
+    background-color: #2196F3;
+}
+
+.Portafolio-tittle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #212121;
+}
+
+.Portafolio-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #757575;
+}
+
+.foorer_{
+    padding: var(--padding-general);
+    background-color: #060627;
+    color: aliceblue;
+}
